@@ -9,7 +9,7 @@ import globalvar
 globalvar._init()
 def make_qrcode(data,icon_path,save_path):
     localtime = time.strftime("%Y%m%d%H%M%S", time.localtime())
-    suffix=os.path.splitext(icon_path)[1]
+    suffix = os.path.splitext(icon_path)[1]
     if suffix == '.gif':
         suffix == '.gif'
     else :
