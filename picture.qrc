@@ -1,8 +1,8 @@
 <RCC>
   <qresource prefix="/">
+      <file>qqq.png</file>
       <file>no.png</file>
       <file>yes.png</file>
-      <file>qqq.png</file>
       <file>style1.png</file>
       <file>style2.png</file>
       <file>style3.png</file>
