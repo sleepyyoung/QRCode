@@ -42,4 +42,5 @@ class Ui_Prompt(object):
         self.open.setText(_translate("Prompt", "打开..."))
         self.open_floder.setText(_translate("Prompt", "打开文件夹"))
         self.ok.setText(_translate("Prompt", "OK"))
+        
 import picture_rc
