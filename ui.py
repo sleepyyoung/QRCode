@@ -198,4 +198,5 @@ class Ui_QRCode(object):
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600; font-style:italic;\">4.</span><span style=\" font-size:14pt;\">默认生成图片名称为当前时间(如20200202020202.png/gif)</span><span style=\" font-size:6pt;\">(</span><span style=\" font-size:6pt; color:#ffaaff;\">2020年2月2日2点02分02秒</span><span style=\" font-size:6pt;\">）</span></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:18pt; font-weight:600; font-style:italic;\">5.</span><span style=\" font-size:14pt;\">可能某些地方还有一些小Bug时不时就会跑出来，那就关了重新打开...(重启万岁)</span><span style=\" font-size:6pt;\">[</span><span style=\" font-size:6pt; color:#00ffff;\">世界上有80%的问题是可以通过重启解决的，剩下的20%？那不用解决。世界上哪有问题能100%解决啊...</span><span style=\" font-size:6pt; color:#55ff7f;\">(小声哔哔)</span><span style=\" font-size:6pt;\">]</span></p></body></html>"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("QRCode", "使用说明"))
+        
 import picture_rc
