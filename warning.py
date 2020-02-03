@@ -45,4 +45,5 @@ class Ui_Form(object):
         self.label.setToolTip(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:20pt; font-weight:600; color:#ff0000;\">生成失败！</span></p></body></html>"))
         self.label.setText(_translate("Form", "<html><head/><body><p align=\"center\"><span style=\" font-size:20pt; font-weight:600; color:#ff0000;\">生成失败！</span></p></body></html>"))
         self.label_2.setText(_translate("Form", "<html><head/><body><p><span style=\" font-size:12pt;\">系统检测到你当前输入了非英文字符，且翻译</span></p><p><span style=\" font-size:12pt;\">功能无法使用。</span></p><p><span style=\" font-size:12pt;\">解决方案：</span></p><p><span style=\" font-size:12pt;\">1.检查网络设置，确保网络连接</span></p><p><span style=\" font-size:12pt;\">2.选择样式1或样式2生成二维码</span></p><p><span style=\" font-size:12pt;\">3.输入英文</span></p></body></html>"))
+        
 import picture_rc
