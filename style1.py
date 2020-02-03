@@ -21,11 +21,11 @@ def make_qrcode(data,save_path):
 
     # img.show()
     localtime = time.strftime("%Y%m%d%H%M%S", time.localtime())
-    qr_name=str(localtime)+'.png'
+    qr_name = str(localtime)+'.png'
     globalvar.set_value('key', qr_name)
     img.save(qr_name)
     # print(qr_name)
-    qr_road=os.getcwd()#C:\Code-Py\Qt
-    qr_path=qr_road+'\\'+qr_name
+    qr_road = os.getcwd()#C:\Code-Py\Qt
+    qr_path = qr_road+'\\'+qr_name
     # print(qr_path)
     shutil.move(qr_path,save_path)
