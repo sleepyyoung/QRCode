@@ -107,6 +107,7 @@ class MainWindow(QMainWindow):
             save_path = self.GetDesktopPath()
         else:
             save_path = self.ui.save_path.toPlainText()
+            
         picture_path=save_path+"\\"+globalvar.get_value('key')
         gif_path=picture_path.replace('\\','/')
 
