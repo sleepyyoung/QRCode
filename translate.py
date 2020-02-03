@@ -11,7 +11,6 @@ def tran(data):
     form_data['smartresult'] = 'dict'
     form_data['doctype']='json'
     form_data['version']='2.1'
-    # form_data['keyfrom']='fanyi.web'
     form_data['action']='FY_BY_CLICKBUTTION'
     form_data['typoResult']='false'
 
