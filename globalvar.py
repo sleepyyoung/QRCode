@@ -1,3 +1,4 @@
+
 def _init():
     global _global_dict
     _global_dict = {}
